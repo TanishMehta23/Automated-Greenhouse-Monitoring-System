@@ -7,13 +7,13 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 ## Project Visuals
 
 ### Circuit Schematic
-![Circuit Schematic](assets/diagrams/circuit_diagram.jpg)
+![Circuit Schematic](assets/diagrams/circuit_diagram.png)
 
 ### Block Diagram
-![Block Diagram](assets/diagrams/block_diagram.jpg)
+![Block Diagram](assets/diagrams/block_diagram.png)
 
 ### Pin Diagram
-![Pin Diagram](assets/diagrams/pin_diagram.jpg)
+![Pin Diagram](assets/diagrams/pin_diagram.png)
 
 ---
 
