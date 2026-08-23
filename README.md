@@ -4,17 +4,20 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 
 ---
 
-## 📸 Project Visuals
+## Project Visuals
 
 ### Circuit Schematic
-![Circuit Schematic](assets/diagrams/circuit_schematic.jpg)
+![Circuit Schematic](assets/diagrams/circuit_diagram.jpg)
 
 ### Block Diagram
 ![Block Diagram](assets/diagrams/block_diagram.jpg)
 
+### Pin Diagram
+![Pin Diagram](assets/diagrams/pin_diagram.jpg)
+
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Real-time Environmental Monitoring**: Continuous reading of temperature, relative humidity, and soil moisture levels.
 * **Local LCD Display**: A 16x2 character LCD with an I2C backpack displays all metrics dynamically.
@@ -25,7 +28,7 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 
 ---
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 * **Microcontroller**: Arduino UNO
 * **Sensors**:
@@ -41,7 +44,7 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 
 ---
 
-## 🔌 Pin Connections
+## Pin Connections
 
 | Component | Pin on Component | Pin on Arduino UNO | Description |
 | :--- | :--- | :--- | :--- |
@@ -57,7 +60,7 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 
 ---
 
-## ⚙️ Calibration & Thresholds
+## Calibration & Thresholds
 
 * **Temperature Threshold**: Set to `34°C` (Configured in `code.ino` via `#define TEMP_THRESHOLD 34`).
 * **Soil Moisture Threshold**: Set to `30%` (Configured in `code.ino` via `#define SOIL_THRESHOLD 30`).
@@ -67,7 +70,7 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 
 ---
 
-## 💾 Software Installation & Setup
+## Software Installation & Setup
 
 1. **Prerequisites**: Install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. **Library Installation**: Open Arduino IDE, navigate to *Sketch* -> *Include Library* -> *Manage Libraries...*, and install:
