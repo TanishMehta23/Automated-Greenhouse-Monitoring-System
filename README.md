@@ -22,7 +22,6 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 * **Real-time Environmental Monitoring**: Continuous reading of temperature, relative humidity, and soil moisture levels.
 * **Local LCD Display**: A 16x2 character LCD with an I2C backpack displays all metrics dynamically.
 * **Automated Cooling**: Activates a cooling fan when temperature rises above 34°C to prevent overheating.
-* **Automated Irrigation**: Triggers a water pump when soil moisture falls below 30% to maintain soil hydration.
 * **Audio Alerts**: Sounds a piezo buzzer alarm when critical low soil moisture levels are detected.
 * **Serial Debugging**: Outputs all data to the Serial Monitor at 9600 baud.
 
