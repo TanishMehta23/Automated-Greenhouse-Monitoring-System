@@ -37,9 +37,8 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 * **Actuators & Output**:
   * 16x2 LCD Display (I2C Module Address: `0x27`)
   * Piezo Buzzer (5V)
-  * 2-Channel Relay Module (5V trigger)
+  * Single Channel Relay Module (5V trigger)
   * 5V DC Cooling/Exhaust Fan
-  * 5V/12V DC Water Pump (controlled via external power supply through the relay)
 * **Other**: Breadboard, jumper wires, external power adapter.
 
 ---
@@ -51,7 +50,6 @@ An Arduino-based smart greenhouse monitoring and automation system designed to m
 | **DHT11 Sensor** | DATA | `D2` | Digital Input |
 | **Buzzer** | `+` (Positive) | `D3` | Digital Output |
 | **Relay 1 (Fan)** | IN | `D7` | Digital Output |
-| **Relay 2 (Pump)** | IN | `D8` | Digital Output |
 | **Soil Moisture** | AOUT | `A0` | Analog Input |
 | **I2C LCD Display** | SDA | `A4` | I2C Data Line |
 | **I2C LCD Display** | SCL | `A5` | I2C Clock Line |
